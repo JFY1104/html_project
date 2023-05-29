@@ -1,0 +1,9 @@
+網頁專題
+            標題
+    輪轉圖片(http://blog.shihshih.com/pure-css-slider/)           
+    調整深淺模式
+    介紹人物+顯示更多(https://blog.csdn.net/weixin_38167855/article/details/101948922)
+    選擇專輯(menu)->(新分頁)跳出各專輯歌曲(超連結 連到youtube/本頁面撥放)
+    回首頁按鈕(固定右下角)
+
+js改變css屬性https://ithelp.ithome.com.tw/articles/10226003
