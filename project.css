@@ -1,16 +1,54 @@
 * {
+    margin: 0 0;
+    padding: 0 0;
+    box-sizing: border-box;
+
+}
+
+.menu {
+    position: fixed;
+    z-index: 10;
+    background-color: rgb(250, 208, 131);
+    color: black;
+    width: 100%;
+    height: 70px;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    text-align: right;
+}
+
+.a1 {
+    width: 1000px;
+    background-color: white;
+    margin :0 -120px;
+    
+}
+
+.but1 {
+    display: inline-block;
+    font-size: 30px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    padding: 5px;
+}
+
+body {
+    background-image: url("img\\bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    
 }
 
 h1 {
     text-align: center;
 }
 
-body {
+/* body {
     padding-top: 100px;
-}
+} */
 
 li {
     list-style: none;
@@ -19,12 +57,11 @@ li {
 .main {
     width: 700px;
     margin: 0 auto;
-
-
 }
 
 .indicator {
     padding: 10px 0;
+    margin-left: 160px;
 }
 
 .indicator ul {
@@ -75,7 +112,7 @@ li {
 .slides ul li {
     position: absolute;
     top: 0;
-    left: 50px;
+    left: 220px;
     opacity: 0;
     transition: 1s;
 }
@@ -114,7 +151,7 @@ li {
     text-align: center;
     position: relative;
     margin: 0 auto;
-    height: 100px;
+    height: 200px;
     overflow: hidden;
 }
 
