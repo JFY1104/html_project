@@ -52,3 +52,30 @@ function showmore() {
     show.style.height = "auto"
     document.getElementById("showmorebtn").style.display = 'none'
 }
+const button = document.getElementById("changecolor")
+body = document.getElementById("body")
+var url1 = "https://images6.alphacoders.com/130/1303882.jpeg"
+var url2 = "https://images8.alphacoders.com/516/516463.jpg"
+var changeimg = true
+var chcolor = document.getElementById("title")
+button.onclick = function () {
+    if (changeimg) {
+        body.style.backgroundImage = `url(${url1})`
+        body.style.backgroundRepeat = "repeat-y"
+        body.style.backgroundAttachment = "fixed";
+        body.style.backgroundPosition = "center";
+        body.style.backgroundSize = "cover";
+        title.style.backgroundColor = "gray "
+        changeimg = false
+    }
+    else {
+        body.style.backgroundImage = `url(${url2})`
+        body.style.backgroundRepeat = "repeat-y"
+        body.style.backgroundAttachment = "fixed";
+        body.style.backgroundPosition = "center";
+        body.style.backgroundSize = "cover";
+        title.style.backgroundColor = "white"
+        changeimg = true
+    }
+
+}

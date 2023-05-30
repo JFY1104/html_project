@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <select id="drop" onchange="select()">
+        <option value="">請選擇程式語言</option>
+        <option value="HTML">HTML</option>
+        <option value="CSS">CSS</option>
+        <option value="JavaScript">JavaScript</option>
+    </select>
+    <h4 id="show"></h4>
+    <script>
+        function select(){
+            var x = document.getElementById("drop").value;
+            document.getElementById("show").innerHTML="您選擇的是:"+x;
+        }
+    </script>
+</body>
+</html>

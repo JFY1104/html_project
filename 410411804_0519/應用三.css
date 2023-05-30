@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: antiquewhite;
+    transition: 0.5s;
+
+}
+
+#toggle{
+    position: absolute;
+    top: 10%;
+    left: 46%;
+    width: 120px;
+    height: 60px;
+    border-radius: 60px;
+    background-color: black;
+    cursor: pointer;
+    box-shadow: inset -6px -6px 4px 1px rgb(49, 49, 48);
+}
+#toggle .button{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scale(0.9);
+    box-shadow: inset -7px -7px 7px 1px lightgray;
+    transition: 0.5s;
+}
+#toggle.dark .button{
+    left: 60px;
+    transition: 0.5s;
+
+}
+#toggle.dark{
+    background-color: rgb(0, 184, 71);
+
+}
+body.dark{
+    background-color: rgb(46, 46, 46);
+}
+
+h2{
+    text-align: center;
+    margin: 20px;
+}
+h2.dark{
+    color: white;
+}
+img {
+    height: 200px;
+    width: 250px;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
