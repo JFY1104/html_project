@@ -54,6 +54,7 @@ function showmore() {
 }
 const button = document.getElementById("changecolor")
 body = document.getElementById("body")
+menu = document.getElementById("menu")
 var url1 = "https://images6.alphacoders.com/130/1303882.jpeg"
 var url2 = "https://images8.alphacoders.com/516/516463.jpg"
 var changeimg = true
@@ -66,6 +67,7 @@ button.onclick = function () {
         body.style.backgroundPosition = "center";
         body.style.backgroundSize = "cover";
         title.style.backgroundColor = "gray "
+        menu.style.backgroundColor = "#5ca6f0"
         changeimg = false
     }
     else {
@@ -75,6 +77,7 @@ button.onclick = function () {
         body.style.backgroundPosition = "center";
         body.style.backgroundSize = "cover";
         title.style.backgroundColor = "white"
+        menu.style.backgroundColor = "rgb(250, 208, 131)"
         changeimg = true
     }
 
