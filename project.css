@@ -2,7 +2,15 @@
     margin: 0 0;
     padding: 0 0;
     box-sizing: border-box;
+}
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    cursor: default;
 }
 
 .menu {
@@ -20,8 +28,7 @@
 .a1 {
     width: 1000px;
     background-color: white;
-    margin :0 -120px;
-    
+    margin: 0 -120px;
 }
 
 .but1 {
@@ -48,7 +55,6 @@ h1 {
 /* body {
     padding-top: 100px;
 } */
-
 li {
     list-style: none;
 }
