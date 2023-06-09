@@ -23,6 +23,7 @@ a:hover {
     margin: 0;
     padding: 0;
     text-align: right;
+    gap: 0;
 }
 
 .a1 {
@@ -62,6 +63,7 @@ li {
 .main {
     width: 700px;
     margin: 0 auto;
+    padding: 0 auto;
 }
 
 .indicator {
@@ -158,6 +160,7 @@ li {
     margin: 0 auto;
     height: 200px;
     overflow: hidden;
+    
 }
 
 .showmorebtn {
@@ -183,4 +186,94 @@ li {
     width: 100px;
     height: 100px;
     border-radius: 50px;
+}
+
+/* second */
+.main2 {
+    width: 70%;
+    height: 1000px;
+    background-color: white;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.a2 {
+    margin-top: -3px;
+}
+
+.song {
+    width: 500px;
+    height: 50px;
+    font-size: 40;
+}
+
+.btnsong {
+    margin-top: 30px;
+    width: 100px;
+    height: 30px;
+    border-radius: 0.7;
+}
+
+.songimg {
+    margin: 30px auto;
+}
+
+#songimg1 {
+    display: none;
+}
+
+#songimg2 {
+    display: none;
+}
+
+#songimg3 {
+    display: none;
+}
+
+#songimg4 {
+    display: none;
+}
+
+#songimg5 {
+    display: none;
+}
+
+#songimg6 {
+    display: none;
+}
+
+#songimg7 {
+    display: none;
+}
+
+#songimg8 {
+    display: none;
+}
+
+#songimg9 {
+    display: none;
+}
+
+#songimg10 {
+    display: none;
+}
+
+#songimg11 {
+    display: none;
+}
+
+#songimg12 {
+    display: none;
+}
+
+#songimg13 {
+    display: none;
+}
+
+#songimg14 {
+    display: none;
+}
+
+#songimg15 {
+    display: none;
 }

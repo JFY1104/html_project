@@ -82,3 +82,281 @@ button.onclick = function () {
     }
 
 }
+img1 = document.getElementById("songimg1")
+img2 = document.getElementById("songimg2")
+img3 = document.getElementById("songimg3")
+img4 = document.getElementById("songimg4")
+img5 = document.getElementById("songimg5")
+img6 = document.getElementById("songimg6")
+img7 = document.getElementById("songimg7")
+img8 = document.getElementById("songimg8")
+img9 = document.getElementById("songimg9")
+img10 = document.getElementById("songimg10")
+img11 = document.getElementById("songimg11")
+img12 = document.getElementById("songimg12")
+img13 = document.getElementById("songimg13")
+img14 = document.getElementById("songimg14")
+img15 = document.getElementById("songimg15")
+
+function confirmsong() {
+    var showtable = document.getElementById("song").value;
+
+    if (showtable == "s1") {
+        console.log(showtable)
+        img1.style.display = "block"
+        img2.style.display = 'none'
+        img3.style.display = 'none'
+        img4.style.display = 'none'
+        img5.style.display = 'none'
+        img6.style.display = 'none'
+        img7.style.display = 'none'
+        img8.style.display = 'none'
+        img9.style.display = 'none'
+        img10.style.display = 'none'
+        img11.style.display = 'none'
+        img12.style.display = 'none'
+        img13.style.display = 'none'
+        img14.style.display = 'none'
+        img15.style.display = 'none'
+    }
+    if (showtable == "s2") {
+        img1.style.display = 'none'
+        img2.style.display = 'block'
+        img3.style.display = 'none'
+        img4.style.display = 'none'
+        img5.style.display = 'none'
+        img6.style.display = 'none'
+        img7.style.display = 'none'
+        img8.style.display = 'none'
+        img9.style.display = 'none'
+        img10.style.display = 'none'
+        img11.style.display = 'none'
+        img12.style.display = 'none'
+        img13.style.display = 'none'
+        img14.style.display = 'none'
+        img15.style.display = 'none'
+    }
+    if (showtable == "s3") {
+        img1.style.display = 'none'
+        img2.style.display = 'none'
+        img3.style.display = 'block'
+        img4.style.display = 'none'
+        img5.style.display = 'none'
+        img6.style.display = 'none'
+        img7.style.display = 'none'
+        img8.style.display = 'none'
+        img9.style.display = 'none'
+        img10.style.display = 'none'
+        img11.style.display = 'none'
+        img12.style.display = 'none'
+        img13.style.display = 'none'
+        img14.style.display = 'none'
+        img15.style.display = 'none'
+    }
+    if (showtable == "s4") {
+        img1.style.display = 'none'
+        img2.style.display = 'none'
+        img3.style.display = 'none'
+        img4.style.display = 'block'
+        img5.style.display = 'none'
+        img6.style.display = 'none'
+        img7.style.display = 'none'
+        img8.style.display = 'none'
+        img9.style.display = 'none'
+        img10.style.display = 'none'
+        img11.style.display = 'none'
+        img12.style.display = 'none'
+        img13.style.display = 'none'
+        img14.style.display = 'none'
+        img15.style.display = 'none'
+    }
+    if (showtable == "s5") {
+        img1.style.display = 'none'
+        img2.style.display = 'none'
+        img3.style.display = 'none'
+        img4.style.display = 'none'
+        img5.style.display = 'block'
+        img6.style.display = 'none'
+        img7.style.display = 'none'
+        img8.style.display = 'none'
+        img9.style.display = 'none'
+        img10.style.display = 'none'
+        img11.style.display = 'none'
+        img12.style.display = 'none'
+        img13.style.display = 'none'
+        img14.style.display = 'none'
+        img15.style.display = 'none'
+    }
+    if (showtable == "s6") {
+        img1.style.display = 'none'
+        img2.style.display = 'none'
+        img3.style.display = 'none'
+        img4.style.display = 'none'
+        img5.style.display = 'none'
+        img6.style.display = 'block'
+        img7.style.display = 'none'
+        img8.style.display = 'none'
+        img9.style.display = 'none'
+        img10.style.display = 'none'
+        img11.style.display = 'none'
+        img12.style.display = 'none'
+        img13.style.display = 'none'
+        img14.style.display = 'none'
+        img15.style.display = 'none'
+    }
+    if (showtable == "s7") {
+        img1.style.display = 'none'
+        img2.style.display = 'none'
+        img3.style.display = 'none'
+        img4.style.display = 'none'
+        img5.style.display = 'none'
+        img6.style.display = 'none'
+        img7.style.display = 'block'
+        img8.style.display = 'none'
+        img9.style.display = 'none'
+        img10.style.display = 'none'
+        img11.style.display = 'none'
+        img12.style.display = 'none'
+        img13.style.display = 'none'
+        img14.style.display = 'none'
+        img15.style.display = 'none'
+    }
+    if (showtable == "s8") {
+        img1.style.display = 'none'
+        img2.style.display = 'none'
+        img3.style.display = 'none'
+        img4.style.display = 'none'
+        img5.style.display = 'none'
+        img6.style.display = 'none'
+        img7.style.display = 'none'
+        img8.style.display = 'block'
+        img9.style.display = 'none'
+        img10.style.display = 'none'
+        img11.style.display = 'none'
+        img12.style.display = 'none'
+        img13.style.display = 'none'
+        img14.style.display = 'none'
+        img15.style.display = 'none'
+    }
+    if (showtable == "s9") {
+        img1.style.display = 'none'
+        img2.style.display = 'none'
+        img3.style.display = 'none'
+        img4.style.display = 'none'
+        img5.style.display = 'none'
+        img6.style.display = 'none'
+        img7.style.display = 'none'
+        img8.style.display = 'none'
+        img9.style.display = 'block'
+        img10.style.display = 'none'
+        img11.style.display = 'none'
+        img12.style.display = 'none'
+        img13.style.display = 'none'
+        img14.style.display = 'none'
+        img15.style.display = 'none'
+    }
+    if (showtable == "s10") {
+        img1.style.display = 'none'
+        img2.style.display = 'none'
+        img3.style.display = 'none'
+        img4.style.display = 'none'
+        img5.style.display = 'none'
+        img6.style.display = 'none'
+        img7.style.display = 'none'
+        img8.style.display = 'none'
+        img9.style.display = 'none'
+        img10.style.display = 'block'
+        img11.style.display = 'none'
+        img12.style.display = 'none'
+        img13.style.display = 'none'
+        img14.style.display = 'none'
+        img15.style.display = 'none'
+    }
+    if (showtable == "s11") {
+        img1.style.display = 'none'
+        img2.style.display = 'none'
+        img3.style.display = 'none'
+        img4.style.display = 'none'
+        img5.style.display = 'none'
+        img6.style.display = 'none'
+        img7.style.display = 'none'
+        img8.style.display = 'none'
+        img9.style.display = 'none'
+        img10.style.display = 'none'
+        img11.style.display = 'block'
+        img12.style.display = 'none'
+        img13.style.display = 'none'
+        img14.style.display = 'none'
+        img15.style.display = 'none'
+    }
+    if (showtable == "s12") {
+        img1.style.display = 'none'
+        img2.style.display = 'none'
+        img3.style.display = 'none'
+        img4.style.display = 'none'
+        img5.style.display = 'none'
+        img6.style.display = 'none'
+        img7.style.display = 'none'
+        img8.style.display = 'none'
+        img9.style.display = 'none'
+        img10.style.display = 'none'
+        img11.style.display = 'none'
+        img12.style.display = 'block'
+        img13.style.display = 'none'
+        img14.style.display = 'none'
+        img15.style.display = 'none'
+    }
+    if (showtable == "s13") {
+        img1.style.display = 'none'
+        img2.style.display = 'none'
+        img3.style.display = 'none'
+        img4.style.display = 'none'
+        img5.style.display = 'none'
+        img6.style.display = 'none'
+        img7.style.display = 'none'
+        img8.style.display = 'none'
+        img9.style.display = 'none'
+        img10.style.display = 'none'
+        img11.style.display = 'none'
+        img12.style.display = 'none'
+        img13.style.display = 'block'
+        img14.style.display = 'none'
+        img15.style.display = 'none'
+    }
+    if (showtable == "s14") {
+        img1.style.display = 'none'
+        img2.style.display = 'none'
+        img3.style.display = 'none'
+        img4.style.display = 'none'
+        img5.style.display = 'none'
+        img6.style.display = 'none'
+        img7.style.display = 'none'
+        img8.style.display = 'none'
+        img9.style.display = 'none'
+        img10.style.display = 'none'
+        img11.style.display = 'none'
+        img12.style.display = 'none'
+        img13.style.display = 'none'
+        img14.style.display = 'block'
+        img15.style.display = 'none'
+    }
+    if (showtable == "s15") {
+        img1.style.display = 'none'
+        img2.style.display = 'none'
+        img3.style.display = 'none'
+        img4.style.display = 'none'
+        img5.style.display = 'none'
+        img6.style.display = 'none'
+        img7.style.display = 'none'
+        img8.style.display = 'none'
+        img9.style.display = 'none'
+        img10.style.display = 'none'
+        img11.style.display = 'none'
+        img12.style.display = 'none'
+        img13.style.display = 'none'
+        img14.style.display = 'none'
+        img15.style.display = 'block'
+    }
+
+
+} 
